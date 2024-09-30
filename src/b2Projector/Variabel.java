@@ -17,7 +17,7 @@ public class Variabel {
             String tempatLahir = "Sidoarjo";
             String asalSekolah = "SMKN 1 PRAYA TENGAH";
             String universitas = "ITS";
-            String peliharaan = "iguana";
+            String peliharaan = "iguana"    ;
             String namaPeliharaan = "combet";
         System.out.println("Nama : " + nama);
         System.out.println("Umur : " + umur);
