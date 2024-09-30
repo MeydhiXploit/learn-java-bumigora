@@ -82,7 +82,7 @@ public class Pertemuan2 {
         
         
         System.out.println("----------OUTPUT--------");
-       System.out.println("Nama : " + nama);
+        System.out.println("Nama : " + nama);
         System.out.println("Umur : " + umur);
         System.out.println("Hobby : " + myHobby);
         System.out.println("jenis kelamin : " + gender);
