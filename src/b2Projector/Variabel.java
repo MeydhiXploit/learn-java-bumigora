@@ -1,7 +1,6 @@
 package b2Projector;
 
 public class Variabel {
-
     public static void main(String[] args) {
             String nama = "Meydhi Ari Nugroho";
             int umur = 20;
