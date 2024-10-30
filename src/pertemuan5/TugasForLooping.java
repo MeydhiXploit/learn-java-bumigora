@@ -1,5 +1,5 @@
 package pertemuan5;
-public class ForEach {
+public class TugasForLooping {
     public static void main(String[] args) {
 //        String[] username = {"Meydhi","Deva","Fadhil"};
 //        int[]nilai = {1,4,6,7,8};

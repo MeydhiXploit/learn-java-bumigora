@@ -10,21 +10,20 @@ import java.util.Scanner;
  *
  * @author MEYDHIARINUGROHO
  */
-public class segitigaWhile {
-
+public class segitigaDoWhile {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Masukkan nilai panjang segitiganya : ");
+        System.out.println("Masukkan nilai awal :");
         int panjang = input.nextInt();
         int i = 0;
-        while (i <= panjang) {
-            int j = 0;
-            while (j <= i) {
-                System.out.print(" * ");
-                j++;
-            }
+        do {            
             System.out.println();
             i++;
-        }
+            int k = 0;
+            do {                
+                System.out.print(" * ");
+                k++;
+            } while (k <= i);
+        } while (i <= panjang);
     }
 }

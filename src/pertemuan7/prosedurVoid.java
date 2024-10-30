@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package pertemuan6;
+package pertemuan7;
 
 import java.util.Scanner;
 
@@ -10,21 +10,23 @@ import java.util.Scanner;
  *
  * @author MEYDHIARINUGROHO
  */
-public class segitigaWhile {
-
+public class prosedurVoid {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Masukkan nilai panjang segitiganya : ");
+        System.out.println("Masukkan panjang : ");
         int panjang = input.nextInt();
-        int i = 0;
-        while (i <= panjang) {
-            int j = 0;
-            while (j <= i) {
+        prosedurVoid tes = new prosedurVoid();
+        tes.segitiga(0);
+        
+    }
+    
+    void segitiga(int panjang){
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print(" * ");
-                j++;
             }
             System.out.println();
-            i++;
         }
     }
+    
 }
